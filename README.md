@@ -45,11 +45,11 @@ graph TD
 
 ## 2. Database Configuration
 
-- [ ] Create AWS account (if not already available)
-- [ ] Set up PostgreSQL instance on AWS RDS
-- [ ] Configure security groups and open necessary ports
-- [ ] Obtain and securely store database connection information
-- [ ] Test database connection
+- [x] Create AWS account (if not already available)
+- [x] Set up PostgreSQL instance on AWS RDS
+- [x] Configure security groups and open necessary ports
+- [x] Obtain and securely store database connection information
+- [x] Test database connection (I got the message "You are connected to database "postgres" as user ~")
 
 ## 3. ORM Setup
 
