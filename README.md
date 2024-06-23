@@ -54,12 +54,12 @@ graph TD
 ## 3. ORM Setup
 
 - [x] Install Drizzle ORM and its dependencies
-- [ ] Create a database connection file using Drizzle ORM
-- [ ] Configure environment variables for database connection
-- [ ] Test the connection to AWS RDS PostgreSQL using Drizzle ORM
-- [ ] Define database schema using Drizzle's schema definition syntax
-- [ ] Generate migration files based on the schema
-- [ ] Run migrations to create tables in the AWS RDS PostgreSQL database
+- [x] Create a database connection file using Drizzle ORM
+- [x] Configure environment variables for database connection
+- [x] Test the connection to AWS RDS PostgreSQL using Drizzle ORM
+- [x] Define database schema using Drizzle's schema definition syntax
+- [x] Generate migration files based on the schema
+- [x] Run migrations to create tables in the AWS RDS PostgreSQL database
 
 ## 4. Authentication Setup
 
