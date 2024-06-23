@@ -53,9 +53,13 @@ graph TD
 
 ## 3. ORM Setup
 
-- [ ] Install and configure Drizzle ORM
-- [ ] Define database schema
-- [ ] Generate and run migrations
+- [x] Install Drizzle ORM and its dependencies
+- [ ] Create a database connection file using Drizzle ORM
+- [ ] Configure environment variables for database connection
+- [ ] Test the connection to AWS RDS PostgreSQL using Drizzle ORM
+- [ ] Define database schema using Drizzle's schema definition syntax
+- [ ] Generate migration files based on the schema
+- [ ] Run migrations to create tables in the AWS RDS PostgreSQL database
 
 ## 4. Authentication Setup
 
@@ -120,13 +124,3 @@ graph TD
 - [ ] Perform thorough testing of all features
 - [ ] Conduct performance checks
 - [ ] Deploy to production environment
-
-# Getting Started
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Set up environment variables (see `.env.example`)
-4. Run the development server: `npm run dev`
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-For detailed setup instructions and contribution guidelines, please refer to our [Contributing Guide](CONTRIBUTING.md).
